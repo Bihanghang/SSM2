@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <classPathEntry location="E:\M2_Repository\mysql\mysql-connector-java\5.1.10\mysql-connector-java-5.1.10.jar"/>
+
+    <context id="context">
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <jdbcConnection
+                connectionURL="jdbc:mysql://127.0.0.1:3306/ssm?characterEncoding=utf8"
+                driverClass="com.mysql.jdbc.Driver" password="721214wan.." userId="root"/>
+        <javaModelGenerator targetPackage="com.bihang.pojo"
+                            targetProject="src/main/java"/>
+        <sqlMapGenerator targetPackage="mapping"
+                         targetProject="src/main/resources"/>
+        <javaClientGenerator targetPackage="com.bihang.dao"
+                             targetProject="src/main/java" type="XMLMAPPER"/>
+
+        <!-- 指定数据库表 -->
+        <table tableName="datasource" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false"></table>
+
+        <!-- 有些表的字段需要指定java类型
+        <table schema="" tableName="">
+            <columnOverride column="" javaType="" />
+        </table> -->
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,37 @@
+2018-11-28 17:25:46,951 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\IdeaProjects\SSM2\target\classes\com\bihang\dao\DatasourceMapper.class]
+2018-11-28 17:25:46,954 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'datasourceMapper' and 'com.bihang.dao.DatasourceMapper' mapperInterface
+2018-11-28 17:25:47,354 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2018-11-28 17:25:48,101 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-11-28 17:25:48,195 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} inited
+2018-11-28 17:25:48,419 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2018-11-28 17:25:48,555 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\IdeaProjects\SSM2\target\classes\mapping\DatasourceMapper.xml]'
+2018-11-28 17:25:48,976 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2018-11-28 17:25:48,982 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4dc8caa7] was not registered for synchronization because synchronization is not active
+2018-11-28 17:25:48,998 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2002348] will not be managed by Spring
+2018-11-28 17:25:49,008 DEBUG [com.bihang.dao.DatasourceMapper.selectByPrimaryKey] - ==>  Preparing: select id, name from datasource where id = ? 
+2018-11-28 17:25:49,076 DEBUG [com.bihang.dao.DatasourceMapper.selectByPrimaryKey] - ==> Parameters: 2(Integer)
+2018-11-28 17:25:49,123 DEBUG [com.bihang.dao.DatasourceMapper.selectByPrimaryKey] - <==      Total: 1
+2018-11-28 17:25:49,124 DEBUG [com.alibaba.druid.pool.PreparedStatementPool] - {conn-10003, pstmt-20000} enter cache
+2018-11-28 17:25:49,124 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4dc8caa7]
+2018-11-28 17:25:49,289 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} closed
+2018-11-28 17:25:49,292 DEBUG [com.alibaba.druid.pool.PreparedStatementPool] - {conn-10003, pstmt-20000} exit cache
+2018-11-28 17:25:49,295 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-11-28 18:56:37,211 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\IdeaProjects\SSM2\target\classes\com\bihang\dao\DatasourceMapper.class]
+2018-11-28 18:56:37,212 DEBUG [org.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'datasourceMapper' and 'com.bihang.dao.DatasourceMapper' mapperInterface
+2018-11-28 18:56:37,778 DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2018-11-28 18:56:38,531 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-11-28 18:56:38,781 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} inited
+2018-11-28 18:56:38,953 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2018-11-28 18:56:39,080 DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\IdeaProjects\SSM2\target\classes\mapping\DatasourceMapper.xml]'
+2018-11-28 18:56:39,917 DEBUG [com.bihang.util.DatasourceExchange] - com.bihang.service.ssmone.DataSourceServiceImpl
+2018-11-28 18:56:39,967 DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2018-11-28 18:56:39,976 DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3efe7086] was not registered for synchronization because synchronization is not active
+2018-11-28 18:56:40,007 DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@d5ae57e] will not be managed by Spring
+2018-11-28 18:56:40,026 DEBUG [com.bihang.dao.DatasourceMapper.selectByPrimaryKey] - ==>  Preparing: select id, name from datasource where id = ? 
+2018-11-28 18:56:40,088 DEBUG [com.bihang.dao.DatasourceMapper.selectByPrimaryKey] - ==> Parameters: 2(Integer)
+2018-11-28 18:56:40,139 DEBUG [com.bihang.dao.DatasourceMapper.selectByPrimaryKey] - <==      Total: 1
+2018-11-28 18:56:40,140 DEBUG [com.alibaba.druid.pool.PreparedStatementPool] - {conn-10003, pstmt-20000} enter cache
+2018-11-28 18:56:40,141 DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3efe7086]
+2018-11-28 18:56:40,331 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} closed
+2018-11-28 18:56:40,333 DEBUG [com.alibaba.druid.pool.PreparedStatementPool] - {conn-10003, pstmt-20000} exit cache
+2018-11-28 18:56:40,334 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
