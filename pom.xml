@@ -56,7 +56,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
+            <version>[4.3.17,)</version>
         </dependency>
 
         <dependency>
@@ -142,7 +142,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.3</version>
+            <version>[1.2.31,)</version>
         </dependency>
     </dependencies>
 </project>
