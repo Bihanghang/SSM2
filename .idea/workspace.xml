@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401f38dc-f154-405a-834c-ae2668608808" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSM2-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSM2-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="401f38dc-f154-405a-834c-ae2668608808" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +62,7 @@
           <entry key="css" value="9" />
           <entry key="html" value="5" />
           <entry key="iml" value="1" />
-          <entry key="java" value="106" />
+          <entry key="java" value="107" />
           <entry key="js" value="8" />
           <entry key="jsp" value="4" />
           <entry key="log" value="4" />
@@ -82,7 +77,7 @@
           <entry key="CSS" value="9" />
           <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="106" />
+          <entry key="JAVA" value="107" />
           <entry key="JSP" value="4" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -98,6 +93,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bihang/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
+            <state relative-caret-position="-107">
+              <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -185,11 +192,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/bihang/test/RedisUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bihang/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bihang/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bihang/pojo/Rediscontent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bihang/intecepter/MethodCacheInterceptor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bihang/controller/RedisController.java" />
       </list>
     </option>
   </component>
@@ -213,7 +220,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="14" />
     <option name="y" value="7" />
     <option name="width" value="1346" />
@@ -408,7 +415,7 @@
     <property name="SearchEverywhereHistoryKey" value="Redis&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543564723184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543564800531" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -717,7 +724,7 @@
       <workItem from="1543372921882" duration="27419000" />
       <workItem from="1543456473672" duration="30485000" />
       <workItem from="1543545906386" duration="8813000" />
-      <workItem from="1543559907899" duration="4642000" />
+      <workItem from="1543559907899" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="添加redis缓存">
       <created>1543562769125</created>
@@ -762,12 +769,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82108000" />
+    <option name="totallyTimeSpent" value="82348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49344262" visible="true" weight="0.2397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49344262" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="1" sideWeight="0.5065574" side_tool="true" weight="0.23903178" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -777,7 +785,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.8819672" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.8819672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1101,16 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bihang/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bihang/pojo/Rediscontent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1154,8 +1152,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
+        <state relative-caret-position="-107">
+          <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bihang/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
