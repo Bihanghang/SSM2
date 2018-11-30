@@ -30,8 +30,6 @@ public class RedisController {
     public void club_list(HttpServletResponse response,
                           @RequestParam(value = "page", defaultValue = "0") int page,
                           @RequestParam(value = "pageSize", defaultValue = "0") int pageSize){
-        logger.debug("我进入contrlloer");
-        System.out.println("woded d ");
         JSONObject jsonObject = new JSONObject();
         JSONObject jo = new JSONObject();
         JSONArray ja = new JSONArray();
