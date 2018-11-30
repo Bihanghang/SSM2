@@ -10,3 +10,5 @@
 ## 图示
 
 ![](https://github.com/Bihanghang/JavaWebNotes/blob/master/notes/img/redis.gif)
+redis
+![](https://github.com/Bihanghang/JavaWebNotes/blob/master/notes/img/redisExample.PNG)
