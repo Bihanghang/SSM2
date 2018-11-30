@@ -1,0 +1,50 @@
+body{
+    margin: 0 auto;
+    max-width: 60em;
+}
+.well{
+    text-align:center;
+    font-size: 150%;
+}
+.explain_box {
+     width: auto;
+     height: 40px;
+     background: #3b3838;
+     border: 1px solid #ccc;
+     color: white;
+     font-size: 14px
+ }
+.content_box {
+    width: auto;
+    height: 40px;
+    background: darkgray;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 14px
+}
+.explain_link {
+     font-size: 14px;
+     height: 100%;
+     width: 18%;
+     display: inline-block;
+     float: left;
+     line-height: 40px;
+     text-align: center;
+     overflow: hidden;
+     word-wrap: break-word;
+     word-break: normal;
+     color: white;
+ }
+.content_link {
+    font-size: 14px;
+    height: 100%;
+    width: 18%;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: normal;
+    color: white;
+}

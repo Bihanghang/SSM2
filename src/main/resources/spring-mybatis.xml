@@ -97,6 +97,10 @@
 
     <aop:config proxy-target-class="false">
 
+        <aop:pointcut id="redisMethodePointcut"
+                      expression="execution(* com.bihang.service.*.select*(..))" />
+        <aop:advisor advice-ref="methodCacheInterceptor" pointcut-ref="redisMethodePointcut"/>
+        
         <aop:aspect ref="dataSourceExchange">
             <aop:pointcut id="dataSourcePointcut"
                           expression="execution(* com.bihang.service.*.*(..))" />
@@ -104,7 +108,29 @@
             <aop:after pointcut-ref="dataSourcePointcut" method="after"/>
         </aop:aspect>
     </aop:config>
-
+    <!-- jedis 配置 -->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxIdle" value="${redis.maxIdle}"/>
+        <property name="maxWaitMillis" value="${redis.maxWait}"/>
+        <property name="testOnBorrow" value="${redis.testOnBorrow}"/>
+    </bean>
+    <!-- redis服务器中心 -->
+    <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <property name="poolConfig" ref="poolConfig"/>
+        <property name="port" value="${redis.port}"/>
+        <property name="hostName" value="${redis.host}"/>
+        <property name="password" value="${redis.password}"/>
+        <property name="timeout" value="${redis.timeout}"></property>
+    </bean>
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="keySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+        </property>
+        <property name="valueSerializer">
+            <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+        </property>
+    </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />

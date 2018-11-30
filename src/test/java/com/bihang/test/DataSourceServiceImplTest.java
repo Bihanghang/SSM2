@@ -3,8 +3,6 @@ package com.bihang.test;
 import com.alibaba.fastjson.JSON;
 import com.bihang.pojo.Datasource;
 import com.bihang.service.DataSourceService;
-import com.bihang.util.Constants;
-import com.bihang.util.DataSourceHolder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
